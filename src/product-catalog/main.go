@@ -314,4 +314,8 @@ func createClient(ctx context.Context, svcAddr string) (*grpc.ClientConn, error)
 		grpc.WithTransportCredentials(insecure.NewCredentials()),
 		grpc.WithStatsHandler(otelgrpc.NewClientHandler()),
 	)
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f3f1d13 (updated main.go and ci.yaml)
